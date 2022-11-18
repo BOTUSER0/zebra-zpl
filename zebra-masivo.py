@@ -24,7 +24,6 @@ def printers ():
         for line in Lines:
             count += 1
             if not line:
-                count = 0
                 break
         print(line.strip())
         printer = line.strip()
