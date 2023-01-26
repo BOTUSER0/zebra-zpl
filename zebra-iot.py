@@ -7,7 +7,7 @@ salir=False
 while not salir:
     mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     print("Envio de configuracion Shipping-iot")
-    with open('shipping-iot.zpl', 'r') as f2:
+    with open('shipping-iot-psk.zpl', 'r') as f2:
         data = f2.read()
         print(data)
     printer=str(input("Ingrese IP de impresora:"))
